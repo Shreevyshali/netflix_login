@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('netflix.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#logo{
+    height: 120px;
+    width: 150px;
+    margin-left: 30px;
+}
+.mid{
+   /* background-color: aqua;
+    width: 50%;
+    margin: auto;
+    text-align: center;*/
+    margin-top: 120px;
+    line-height: 33px;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+} 
+#mail{
+    background-color: rgba(22, 21, 21, 0.2);
+    border: 1px solid rgb(125, 123, 123);
+    height: 35px;
+    width: 280px;
+}
+#button{
+    background-color: red;
+    border-radius: 2px;
+    height: 35px;
+    width: 180px;
+    border: none;
+}
+::placeholder{
+    padding: 20px;
+    color: gray;
+}
+nav{
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+}
+#box{
+    background-color: rgb(22, 22, 22,0.4);
+    height: 30px;
+    width: 100px;
+}
+#jio{
+    background-color: red;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+}
+.right{
+    display: flex;
+    justify-content: row;
+    margin-top: 20px;
+    margin-right: 50px;
+}
